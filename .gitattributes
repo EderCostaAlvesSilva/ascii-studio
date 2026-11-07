@@ -1,0 +1,6 @@
+# LF no repositório, para Docker e CI no Linux.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.gif binary

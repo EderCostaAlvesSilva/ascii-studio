@@ -1,0 +1,33 @@
+# Dependências e builds
+node_modules/
+dist/
+dist-e2e/
+dist-network/
+build/
+
+# Testes
+test-results/
+playwright-report/
+coverage/
+
+# Ambiente
+*.log
+.env
+.env.local
+
+# Ferramentas de desenvolvimento e documentos de planejamento
+.claude/
+.specify/
+specs/
+CLAUDE.md
+
+# Arquivos pessoais
+/image.png
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/

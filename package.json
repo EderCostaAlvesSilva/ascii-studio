@@ -1,0 +1,54 @@
+{
+  "name": "ascii-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Transforma imagens em ASCII art e emojis no navegador, sem enviar nada a servidores.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:network": "playwright test -c playwright.network.config.ts"
+  },
+  "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
+    "dexie": "^4.4.7",
+    "onnxruntime-web": "1.21.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.0",
+    "@tailwindcss/vite": "^4.3.4",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "fake-indexeddb": "^6.2.7",
+    "tailwindcss": "^4.3.4",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.6",
+    "vitest": "^4.1.12"
+  },
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EderCostaAlvesSilva/ascii-studio.git"
+  },
+  "homepage": "https://edercostaalvessilva.github.io/ascii-studio/",
+  "author": "Eder Costa Alves Silva",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "keywords": [
+    "ascii-art",
+    "react",
+    "typescript",
+    "web-worker",
+    "github-profile"
+  ]
+}
